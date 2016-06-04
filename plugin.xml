@@ -17,5 +17,8 @@
         <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
             <false/>
         </config-file>
+        <config-file target="*-Info.plist" parent="UINewsstandApp">
+            <true/>
+        </config-file>
     </platform>
 </plugin>
